@@ -9,6 +9,7 @@
     <meta name="author" content="Saverio Di Bella">
     <title>Basic HTML Website</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
@@ -27,52 +28,55 @@
         </nav>
     </header>
     <main>
-        <section aria-labelledby="intro">
+        <section class="intro" aria-labelledby="intro">
             <h1 id="intro">Full Stack Developer</h1>
             <p>Let's do tech.</p>
         </section>
+        <div class="main-content">
+            <section calss="gr sec-project" aria-labelledby="projects">
+                <h2 id="projects">Projects</h2>
+                <ul>
+                    <li>HTML Only Portfolio</li>
+                    <li>Calculator</li>
+                    <li>Quiz App</li>
+                    <li>Countdown Timer</li>
+                    <li>Product Launch Page</li>
+                </ul>
+            </section>
+    
+            <section calss="gr sec-workexperience" aria-labelledby="work-experience">
+                <h2 id="work-experience">Work Experience</h2>
+    
+                <article>
+                    <h3>Roadmap.sh Projects</h3>
+                    <p>Solving Roadmap.sh projects.</p>
+                    <a href="https://roadmap.sh/u/dibejr" target="_blank">Visit my Projects</a>
+                </article>
+    
+                <article>
+                    <h3>Trizeta S.R.L. - Full Stack Developer</h3>
+                    <p>Developed IT solutions to increase productivity and streamline processes.</p>
+                </article>
+            </section>
+    
+            <section class="gr sec-education" aria-labelledby="education">
+                <h2 id="education">Education</h2>
+                <p>Undergraduate in Computer Science, studies included:</p>
+                <ul>
+                    <li>Object Oriented Programming</li>
+                    <li>Data Structures and Algorithms</li>
+                    <li>Web Engineering</li>
+                    <li>Artificial Intelligence</li>
+                    <li>Human-Computer Interaction</li>
+                    <li>Computer Graphics</li>
+                    <li>Database Management Systems</li>
+                    <li>Distributed Database Systems</li>
+                    <li>Discrete Mathematics</li>
+                </ul>
+            </section>
+    
+        </div>
 
-        <section aria-labelledby="projects">
-            <h2 id="projects">Projects</h2>
-            <ul>
-                <li>HTML Only Portfolio</li>
-                <li>Calculator</li>
-                <li>Quiz App</li>
-                <li>Countdown Timer</li>
-                <li>Product Launch Page</li>
-            </ul>
-        </section>
-
-        <section aria-labelledby="work-experience">
-            <h2 id="work-experience">Work Experience</h2>
-
-            <article>
-                <h3>Roadmap.sh Projects</h3>
-                <p>Solving Roadmap.sh projects.</p>
-                <a href="projects.html">Visit my Projects</a>
-            </article>
-
-            <article>
-                <h3>Trizeta S.R.L. - Full Stack Developer</h3>
-                <p>Developed IT solutions to increase productivity and streamline processes.</p>
-            </article>
-        </section>
-
-        <section aria-labelledby="education">
-            <h2 id="education">Education</h2>
-            <p>Undergraduate in Computer Science, studies included:</p>
-            <ul>
-                <li>Object Oriented Programming</li>
-                <li>Data Structures and Algorithms</li>
-                <li>Web Engineering</li>
-                <li>Artificial Intelligence</li>
-                <li>Human-Computer Interaction</li>
-                <li>Computer Graphics</li>
-                <li>Database Management Systems</li>
-                <li>Distributed Database Systems</li>
-                <li>Discrete Mathematics</li>
-            </ul>
-        </section>
 
         <aside class="reviews">
             <h2>Feedback from Peers</h2>
@@ -89,6 +93,10 @@
                 <footer>Anna White, Project Manager</footer>
             </blockquote>
         </aside>
+
+        <section>
+            <a href="https://roadmap.sh"><img src="https://roadmap.sh/card/wide/64945e51d99c9d67318da593?variant=dark&roadmaps=backend%2Cfull-stack%2Cfrontend%2Cdatastructures-and-algorithms" alt="roadmap.sh"/></a>
+        </section>
     </main>
     <footer>
         <p>&copy; all rights reserved 2024</p>

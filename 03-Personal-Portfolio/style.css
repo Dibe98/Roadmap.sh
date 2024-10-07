@@ -1,5 +1,6 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
     background: #141415;
     color: #ffffff7a;
     display: flex;
@@ -40,4 +41,40 @@ nav ul li a {
 a {
     color: #FACC15;
     text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.intro {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+.main-content {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr; /* La colonna centrale è il doppio delle altre */
+    grid-gap: 5rem;
+    margin: 5rem 10rem;
+}
+
+section ul {
+    flex-direction: column;
+}
+
+section h2 {
+    color: #ffffff;
+}
+section h3 {
+    color: #ffffffbe
+}
+
+.sec-education ul {
+    list-style: circle;
 }
