@@ -1,15 +1,15 @@
 const themeToggleBtn = document.getElementById('theme-toggle');
 const themeIcon = document.getElementById('theme-icon');
-const body = document.body;
+const html = document.documentElement;
 
 // Funzione per applicare il tema e l'icona in base al tema
 function applyTheme(theme) {
     if (theme === 'light') {
-        body.classList.add('light-mode');
+        html.classList.add('light-mode');
         themeIcon.classList.remove('fa-moon');
         themeIcon.classList.add('fa-sun');
     } else {
-        body.classList.remove('light-mode');
+        html.classList.remove('light-mode');
         themeIcon.classList.remove('fa-sun');
         themeIcon.classList.add('fa-moon');
     }
@@ -33,12 +33,12 @@ themeToggleBtn.addEventListener('click', function () {
 
     // Alterna tra light e dark e cambia l'icona
     if (currentTheme === 'dark') {
-        body.classList.add('light-mode');
+        html.classList.add('light-mode');
         themeIcon.classList.remove('fa-moon');
         themeIcon.classList.add('fa-sun');
         localStorage.setItem('theme', 'light');
     } else {
-        body.classList.remove('light-mode');
+        html.classList.remove('light-mode');
         themeIcon.classList.remove('fa-sun');
         themeIcon.classList.add('fa-moon');
         localStorage.setItem('theme', 'dark');

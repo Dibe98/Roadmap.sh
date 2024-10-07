@@ -9,16 +9,8 @@
     --input-color: #2e2e2e;
 }
 
-.light-mode :root {
-    --background-color: #f5f5f5;
-    --title-color: #000;
-    --text-color: #333;
-    --title-color-two: #000000be;
-    --card-background-color: #fff;
-    --input-color: #fff;
-}
 
-body.light-mode {
+html.light-mode {
     --background-color: #f5f5f5;
     --title-color: #000;
     --text-color: #333;
