@@ -44,9 +44,8 @@ a {
 }
 
 main {
-    display: flex;
     flex-direction: column;
-
+    justify-content: center;
 }
 
 .intro {
@@ -54,7 +53,16 @@ main {
 }
 
 h1 {
+    color: #ffffff;
     font-size: 2rem;
+}
+
+h2 {
+    color: #ffffff;
+}
+
+h3 {
+    color: #ffffffbe
 }
 
 .main-content {
@@ -68,13 +76,26 @@ section ul {
     flex-direction: column;
 }
 
-section h2 {
-    color: #ffffff;
-}
-section h3 {
-    color: #ffffffbe
-}
 
 .sec-education ul {
     list-style: circle;
+}
+
+aside {
+    width: 40%;
+    align-items: center;
+    margin: auto;
+}
+
+aside blockquote {
+
+    text-align: center;
+    border: #FACC15 1px solid;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    text-align: start;
+    margin: 2rem 0
+}
+blockquote hr {
+    border: #facc1549 0.5px solid;
 }
