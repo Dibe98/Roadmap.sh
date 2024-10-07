@@ -118,3 +118,57 @@ footer {
 .main section h1 {
     text-align: center;
 }
+@media (max-width: 768px) {
+    body {
+        font-size: 1rem;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    nav {
+        width: 100%;
+    }
+
+    nav ul {
+        font-size: 1.5rem;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    nav ul li {
+        width: 100%;
+        text-align: center;
+    }
+
+    nav ul li a {
+        display: block;
+        width: 100%;
+        padding: 0.5rem 0;
+    }
+
+    .main-content {
+        padding: 0 0.5rem;
+        display: flex;
+        flex-direction: column;
+        margin: 0.5rem 1rem;
+        grid-gap: none;
+    }
+    .main-content section h2 {
+        text-align: center;
+    }
+
+    .sec-project, .sec-workexperience, .sec-education {
+        margin-bottom: 1rem;
+    }
+
+    .reviews blockquote {
+        margin-bottom: 1rem;
+    }
+
+    aside {
+        width: 90%;
+    }
+}
