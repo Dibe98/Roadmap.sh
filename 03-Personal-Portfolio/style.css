@@ -105,3 +105,12 @@ footer {
     justify-content: space-between;
     font-size: 1rem;
 }
+
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+.main section h1 {
+    text-align: center;
+}
