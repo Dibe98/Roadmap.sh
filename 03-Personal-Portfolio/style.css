@@ -99,3 +99,9 @@ aside blockquote {
 blockquote hr {
     border: #facc1549 0.5px solid;
 }
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+}
