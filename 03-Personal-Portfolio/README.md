@@ -12,9 +12,9 @@ The goal of this project is to teach you how to style a website using CSS. You w
 - [x] Well-styled contact form.
 
 ## Bonus
-- [ ] Use Google Fonts to enhance the typography of your website.
-- [ ] Look into GitHub Pages or Cloudflare Pages to host your website for free.
-- [ ] Add support for dark mode using CSS variables.
+- [x] Use Google Fonts to enhance the typography of your website.
+- [x] Look into GitHub Pages or Cloudflare Pages to host your website for free.
+- [x] Add support for dark mode using CSS variables.
 
 
 ## How to Use
