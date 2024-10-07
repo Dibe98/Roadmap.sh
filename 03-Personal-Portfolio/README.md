@@ -9,7 +9,7 @@ The goal of this project is to teach you how to style a website using CSS. You w
 - [x] Consistent use of a chosen color scheme and typography.
 - [x] Proper use of CSS techniques like Flexbox, media queries, and the box model.
 - [x] A responsive navigation bar 
-- [ ] Well-styled contact form.
+- [x] Well-styled contact form.
 
 ## Bonus
 - [ ] Use Google Fonts to enhance the typography of your website.
