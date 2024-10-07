@@ -5,11 +5,11 @@
 The goal of this project is to teach you how to style a website using CSS. You will take the structure from the previous HTML-only project and apply various CSS techniques to enhance its appearance and responsiveness.
 
 ## Key requirements for this project
-- [ ] A fully styled, responsive website with the same structure as the previous project.
-- [ ] Consistent use of a chosen color scheme and typography.
-- [ ] Proper use of CSS techniques like Flexbox, media queries, and the box model.
-- [ ] A responsive navigation bar 
-- [ ] well-styled contact form.
+- [x] A fully styled, responsive website with the same structure as the previous project.
+- [x] Consistent use of a chosen color scheme and typography.
+- [x] Proper use of CSS techniques like Flexbox, media queries, and the box model.
+- [x] A responsive navigation bar 
+- [ ] Well-styled contact form.
 
 ## Bonus
 - [ ] Use Google Fonts to enhance the typography of your website.
