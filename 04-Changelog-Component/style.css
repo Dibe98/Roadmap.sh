@@ -1,0 +1,45 @@
+:root {
+    --primary-color: #FACC15;
+    --background-color: #141415;
+    --text-color: #ffffff7a;
+    --title-color: #ffffff;
+    --title-color-two: #ffffffbe;
+    --font-family: "Spinnaker", sans-serif;
+    --card-background-color: #1e1e1e;
+    --input-color: #2e2e2e;
+}
+
+
+html.light-mode {
+    --background-color: #f5f5f5;
+    --title-color: #000;
+    --text-color: #333;
+    --title-color-two: #000000be;
+    --card-background-color: #fff;
+    --input-color: #fff;
+}
+
+body {
+    font-family: var(--font-family);
+    background: var(--background-color);
+    color: var(--text-color);
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    padding: 0 1rem;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+    margin: 1rem 0;
+}
+
+ul li {
+    margin-bottom: 0.5rem;
+    color: var(--text-color);
+}
+
+html.light-mode ul li {
+    color: var(--text-color);
+}
