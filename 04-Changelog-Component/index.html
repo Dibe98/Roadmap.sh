@@ -1,22 +1,46 @@
 <!DOCTYPE html>
-<html lang="en"></html>
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Changelog</title>
+    <link href="https://fonts.googleapis.com/css2?family=Spinnaker&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+     <!-- Fallback per light mode -->
+     <style>
+        html.light-mode body {
+            background-color: #f5f5f5;
+        }
+    </style>
+
+    <!-- Script inline per applicare il tema subito -->
+    <script>
+        (function () {
+            const savedTheme = localStorage.getItem('theme') || 'dark';
+            if (savedTheme === 'light') {
+                document.documentElement.classList.add('light-mode');
+            }
+        })();
+    </script>
 </head>
+
 <body>
-    <section>
-        <h1>Changelog</h1>
+    <button id="theme-toggle"> <i id="theme-icon" class="fas fa-moon"></i></button>
+    <section class="centered-content">
+        <h1 class="title">Changelog</h1>
         <ul>
-            <li>Version 1.0.2 - Added new feature X. <span class="date">2023-10-01</span></li>
-            <li>Version 1.0.1 - Fixed minor bugs and improved performance. <span class="date">2023-09-15</span></li>
-            <li>Version 1.0.0 - Initial release with all main features. <span class="date">2023-09-01</span></li>
-            <li>Version 0.9.0 - Added preview functionality. <span class="date">2023-08-15</span></li>
-            <li>Version 0.8.0 - Implemented user management. <span class="date">2023-08-01</span></li>
-            <li>Version 0.7.0 - Improved user interface. <span class="date">2023-07-15</span></li>
+            <li><span class="date">2023-10-01</span> Version 1.0.2 - Added new feature X.</li>
+            <li><span class="date">2023-09-15</span> Version 1.0.1 - Fixed minor bugs and improved performance.</li>
+            <li><span class="date">2023-09-01</span> Version 1.0.0 - Initial release with all main features.</li>
+            <li><span class="date">2023-08-15</span> Version 0.9.0 - Added preview functionality.</li>
+            <li><span class="date">2023-08-01</span> Version 0.8.0 - Implemented user management.</li>
+            <li><span class="date">2023-07-15</span> Version 0.7.0 - Improved user interface.</li>
         </ul>
     </section>
+    <script src="script.js"></script>
 </body>
+
 </html>

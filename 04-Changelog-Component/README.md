@@ -7,12 +7,12 @@ In this project you are required to create a simple component for a website that
 The goal of this project is to teach you about positioning and layout in CSS. You will create a simple HTML structure and use CSS to style it into a visually appealing and responsive changelog component. Given below is a rough mockup of the changelog component you need to create.
 
 ## Key requirements for this project
-- [ ] A fully styled, responsive component.
-- [ ] Consistent use of a chosen color scheme and typography.
-- [ ] Proper use of CSS techniques like Flexbox, media queries, and the box model.
+- [x] A fully styled, responsive component.
+- [x] Consistent use of a chosen color scheme and typography.
+- [x] Proper use of CSS techniques like Flexbox, media queries, and the box model.
 
 ## Bonus
-- [ ] Use Google Fonts to enhance the typography of your website.
+- [x] Use Google Fonts to enhance the typography of your website.
 - [ ] Add support for dark mode using CSS variables.
 
 
